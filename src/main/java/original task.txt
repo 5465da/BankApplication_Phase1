@@ -1,0 +1,105 @@
+Console Based - Bank Application
+================================
+Admin (module):
+	1. Login 
+		 ID 	  : Valid Email Address   [jhon@gmail.com]
+		 Password : Minimum 8 digit [Optimum#2020]
+			
+			If Success  : Welcome to Admin Dashboard..
+			If Fails	: Sorry. Wrong Credentials!
+	
+	2. Forget Password
+		 Enter Email Address : jhon@gmail.com 
+			check with database, 
+			if valid, generate random password and sends an email to jhon@gmail.com 
+			else, email not found in our database 
+	
+	3. View Customers List
+		
+Customer ID 	Name	 Email 	        Account Status	Credit Card	Credit Card Limit 
+101		Adrian	 adrian@gmail	Inactive	no 						
+102		KK	 		Active 		yes		10000
+		103	 Hannah		Active		no 					
+		104	 Sharon		Inactive 	no 					
+		
+	4. Activate or Deactivate Customer Account 
+
+		Enter Customer ID : 104
+		
+		Wish to Activate A/c(Yes/No)? Yes 
+
+		Account Status changed to Active Successfully..
+		
+	5. Logout
+	
+	
+Customer (Module):
+
+	1. Register
+	
+		Enter Email Address : adrian@gmail.com [email should not be registered with the DB ]
+		Password 	    	: 		Welcome@2020
+		Retype Password     : Welcome@2020 [ Retype password must be same as password ]
+		
+		On Success, send a notification to admin to approve.
+		
+	2. Login 
+	
+		Enter Email Address : adrian@gmail.com
+		Password	    : Welcome@2020
+		
+		If fails, Sorry. Wrong Credentials!
+		Else, Welcome to Customer Dashboard..
+		
+	3. Forget Password
+	
+	   Enter Email Address : adrian@gmail.com
+	   
+	   check with database, 
+			if valid, generate random password(temporary) and sends an email to adrian@gmail.com 
+			else, email not found in our database 
+	   
+	4. Login [next time]
+	 
+	   Enter Temporary Password : 12343234
+	   Enter new Password       : Welcome@2021 [ password should not be old password ]
+	   Retype Password	    : Welcome@2021 
+		
+		
+	5. Apply for Credit Card
+	
+	6. Check Credit Card Approval Status 
+	
+	7. View Credit Card Available Balance : 
+	
+	8. Payment 
+	
+		Options : 
+			a) Pay Mobile Bill: 
+				Enter Mobile no : 92247880
+				Bill Amount     : 35
+				
+				Wish to proceed(yes/no) : yes 
+				Payment Successful..
+				
+				
+			b) Transfer Money:
+				Enter Account No 	: 23432789
+				Amount to transfer : 1500
+
+				Wish to proceed(yes/no) : yes 
+				Payment Successful..
+
+			c) Pay Tax:
+				Tax Account 		: 23432
+				Amount 				: 200000
+				
+				Sorry! amount exceeds credit limit.
+
+	9.  View Payment Details 
+	
+		Serial No		Payment Type	Amount		Date and Time 
+		
+		
+		
+	10. Logout
