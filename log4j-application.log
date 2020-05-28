@@ -1,0 +1,64 @@
+2020-05-20 15:20:20 INFO  BankApplicationConsole:8 - This is Info
+2020-05-20 15:29:12 WARN  Controller:82 - java.sql.SQLException: Column 'credit_limit' not found.
+2020-05-20 15:30:32 WARN  Controller:82 - java.sql.SQLException: Column 'credit_limit' not found.
+2020-05-20 15:30:55 WARN  Controller:82 - java.sql.SQLException: Column 'credit_limit' not found.
+2020-05-20 15:39:35 WARN  DBConnection:31 - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+2020-05-26 12:14:50 INFO  BankApplicationConsole:8 - This is Info
+2020-05-26 12:16:13 INFO  BankApplicationConsole:8 - This is Info
+2020-05-26 12:16:31 INFO  BankApplicationConsole:8 - This is Info
+2020-05-26 12:16:56 INFO  BankApplicationConsole:8 - This is Info
+2020-05-26 13:10:41 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-26 13:10:41 INFO  ServiceMenuImpl:179 - Successfully generated temp password and sent to your email
+2020-05-26 13:20:11 INFO  ServiceMenuImpl:75 - Register successfully
+2020-05-26 13:23:18 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:25:15 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:26:03 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:29:15 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:30:15 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:30:52 ERROR AdminServiceImpl:94 - java.util.InputMismatchException
+2020-05-26 13:50:10 ERROR AdminServiceImpl:93 - java.util.InputMismatchException
+2020-05-26 13:50:22 INFO  ServiceMenuImpl:98 - Admin login successfully
+2020-05-26 13:50:32 INFO  ServiceMenuImpl:182 - Email does not exists!
+2020-05-26 13:50:46 INFO  CustomerDAOImpl:65 - Register successfully
+2020-05-26 13:50:56 INFO  ServiceMenuImpl:101 - Your Account is not activated by the Administrator
+2020-05-26 13:51:18 INFO  AdminDAOImpl:60 - Customer doesnt have credit card!
+2020-05-26 13:51:54 INFO  ServiceMenuImpl:98 - Admin login successfully
+2020-05-26 13:52:03 INFO  ServiceMenuImpl:108 - Customer login successfully
+2020-05-26 13:52:44 INFO  CustomerDAOImpl:202 - Successfully apply for credit card
+2020-05-26 13:53:22 INFO  AdminDAOImpl:60 - Customer doesnt have credit card!
+2020-05-26 13:54:25 INFO  ServiceMenuImpl:98 - Admin login successfully
+2020-05-26 13:54:40 INFO  ServiceMenuImpl:108 - Customer login successfully
+2020-05-26 13:55:25 INFO  ServiceMenuImpl:98 - Admin login successfully
+2020-05-26 13:55:37 INFO  ServiceMenuImpl:108 - Customer login successfully
+2020-05-26 13:55:59 INFO  CustomerDAOImpl:160 - Custome payment successful
+2020-05-26 13:56:30 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-26 13:56:30 INFO  ServiceMenuImpl:173 - Successfully generated temp password and sent to your email
+2020-05-26 13:57:26 INFO  LoginDAOimpl:103 - Successful update password from database
+2020-05-26 13:57:32 INFO  ServiceMenuImpl:108 - Customer login successfully
+2020-05-26 16:48:23 INFO  CustomerDAOImpl:65 - Register successfully
+2020-05-26 16:48:52 INFO  ServiceMenuImpl:99 - Admin login successfully
+2020-05-26 16:49:11 INFO  CustomerDAOImpl:65 - Register successfully
+2020-05-27 16:03:28 INFO  AdminDAOImpl:61 - Customer doesnt have credit card!
+2020-05-27 16:03:37 INFO  CustomerDAOImpl:65 - Register successfully
+2020-05-27 16:03:39 ERROR EmailServerImpl:40 - javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. f29sm1508159pgf.63 - gsmtp
+
+2020-05-27 16:04:34 INFO  AdminDAOImpl:61 - Customer doesnt have credit card!
+2020-05-27 16:05:00 INFO  CustomerDAOImpl:202 - Successfully apply for credit card
+2020-05-27 16:05:02 ERROR EmailServerImpl:40 - javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. u45sm1763093pjb.7 - gsmtp
+
+2020-05-27 16:22:45 INFO  AdminDAOImpl:61 - Customer doesnt have credit card!
+2020-05-27 16:22:55 INFO  AdminDAOImpl:150 - Approved creditcard Application!
+2020-05-27 16:22:58 ERROR EmailServerImpl:40 - javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. w10sm1494899pgm.70 - gsmtp
+
+2020-05-27 16:22:58 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-27 16:22:58 INFO  LoginDAOimpl:103 - Successful update password from database
+2020-05-27 17:04:22 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-27 17:04:22 INFO  LoginDAOimpl:103 - Successful update password from database
+2020-05-27 17:04:52 INFO  AdminDAOImpl:61 - Customer doesnt have credit card!
+2020-05-27 17:05:04 INFO  AdminDAOImpl:190 - Application denied!
+2020-05-27 17:22:01 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-27 17:22:01 INFO  LoginDAOimpl:103 - Successful update password from database
+2020-05-27 17:22:59 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-27 17:22:59 INFO  LoginDAOimpl:103 - Successful update password from database
+2020-05-27 17:23:25 INFO  LoginDAOimpl:75 - Successful update temporary password from database
+2020-05-27 17:23:25 INFO  LoginDAOimpl:103 - Successful update password from database
